@@ -10,7 +10,7 @@
         <Slider x:Name="sliderpart" VerticalAlignment="Top" Margin="15,30,15,0" Value="4" SmallChange="1" Minimum="1" Maximum="8"/>
         <Slider x:Name="slidermax" VerticalAlignment="Top" Margin="15,60,15,0" Value="100" SmallChange="1" Maximum="100" Minimum="1"/>
         <Button x:Name="buttongo" Content="Go" HorizontalAlignment="Center" Margin="0,100,0,0" VerticalAlignment="Top" Width="75" Click="buttongo_Click"/>
-        <TextBox x:Name="textBoxoutput" Margin="25,130,22,25" TextWrapping="Wrap" Text="TextBox"/>
+        <TextBox x:Name="textBoxoutput" Margin="25,130,22,25" TextWrapping="Wrap"/>
 
     </Grid>
 </Window>
