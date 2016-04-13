@@ -37,7 +37,11 @@ namespace Paginatore
                 }
             }
             if (textBoxoutput.Text.Length > 1)
+            {
                 textBoxoutput.Text = textBoxoutput.Text.TrimEnd().Substring(0, textBoxoutput.Text.Length - 1);
+            }
+            textBoxoutput.SelectAll();
+            textBoxoutput.Copy();
         }
     }
 }
