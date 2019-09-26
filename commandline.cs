@@ -12,8 +12,8 @@ namespace Rextester
     {
         public static void Main(string[] args)
         {
-        int maxvalue = 9;
-        int partizioni = 100;
+        int maxvalue = 100;
+        int partizioni = 9;
         string valorefinale = "";
         for (int i = 1; i <= maxvalue; i++)
           {
